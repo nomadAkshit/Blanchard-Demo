@@ -1,0 +1,137 @@
+ /* ====banner-css===== */
+ section.blanchard {
+     padding: 120px 0;
+     position: relative;
+ }
+ .blanchard .blan_head{
+    color: #ffff;
+    margin-bottom: 30px;
+ }
+
+ .blanchard .blan_banner {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .blan_banner img {
+     width: calc(50% - 30px);
+     margin-right: 30px;
+ }
+
+ .blan_banner .blan_text {
+     width: calc(50% - 30px);
+     margin-left: 30px;
+     color: #ffff;
+ }
+ .blan_text h2{
+    margin-bottom: 20px;
+ }
+
+ .blanchard .bottom_img {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 50%;
+ }
+ /* =========section-two-csss=========== */
+ section.why{
+    padding: 90px 0;
+ }
+ .why .why_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.why_content .why_text{
+        width: calc(50% - 40px);
+        margin-right: 40px;
+
+}
+.why_content .why_img{
+        width: calc(50% - 40px);
+        margin-left: 40px;
+
+}
+.why .why_img img{
+    border-radius: 40px;
+}
+.why_content .why_text p {
+    margin: 30px 0;
+}
+.why_content .why_text ul {
+    list-style: disc;
+    margin-left: 20px;
+
+}
+.why_content .why_text ul li{
+    font-family: noto sans;
+    margin-bottom: 20px;
+}
+/* =========section-three-css========= */
+section.vision{
+    padding: 60px 0;
+}
+.vision h2{
+    color: #003146;
+    font-size: 48px;
+}
+.vision h4,h3 {
+    color: #003146;
+    margin-bottom: 20px;
+}
+.vision .vision_text {
+    text-align: center;
+    margin: 20px 0;
+}
+.vision .mission_text{
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.vision .mission_text p{
+    padding: 0 264px;
+}
+.vision .value_head {
+    text-align: center;
+    margin: 40px 0;
+}
+.vision .our_values {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vision .value_text {
+    width: calc(25% - 23px);
+    margin-right: 30px;
+}
+.vision .value_text:last-child{
+    margin-right: 0;
+}
+.vision .value_text p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.vision .bottom_text_vision {
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.bottom_text_vision span {
+    color: #008065;
+}
+/* ============section-four-css========== */
+section.our_people{
+    padding: 90px 0;
+}
+.our_people .people_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.people_content .our_text{
+    width: calc(50% - 40px);
+    margin-right: 40px;
+    color: #ffff;
+}
+.people_content .our_text h2{
+    font-size: 48px;
+}
+.people_content .our_image{
+    width: calc(50% - 40px);
+    margin-left: 40px;
+}
