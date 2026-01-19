@@ -611,4 +611,7 @@ section.last-banner{
     .ready-box .svg-main h5 {
     font-size: 16px;
 }
+.training-main .training-text ul li {
+        font-size: 19px;
+    }
 }
