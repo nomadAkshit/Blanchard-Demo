@@ -40,7 +40,12 @@
                             <li> <img src="./images/Group 9.png" alt=""
                                     style="width: 17px; height: 17px; margin-right: 5px;"><a href="#">MY
                                     BLANCHARD LOGIN</a></li>
-                            <li><img src="./images/Group 10.png" alt="" style="width: 40px;height: 40px;"></li>
+                           <li class="search-box">
+                                <img src="./images/Group 10.png" alt="search" class="search-icon"
+                                    style="width: 40px; height: 40px;">
+
+                                <input type="search" placeholder="Search..." class="search-input">
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -531,6 +536,12 @@
             $(".navigation").slideToggle("");
         });
     </script>
+    </script>
+    <!-- search-box -->
+    <script>document.querySelector(".search-icon").addEventListener("click", () => {
+  document.querySelector(".search-box").classList.toggle("active");
+});
+</script>
 </body>
 
 </html>
